@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Wed Apr 21 2021 21:43:27 GMT+0200 (Central European Summer Time)</dateCreated>
+		<dateModified>Wed Apr 21 2021 21:43:27 GMT+0200 (Central European Summer Time)</dateModified>
+	</head>
+	<body>
+		<outline text="Mobile Device Evidence v.0.9x">
+			<outline text="Collection &amp; Preservation">
+				<outline text="Preparation">
+					<outline text="Check tools and equipment"></outline>
+					<outline text="Check/Ensure legal authority to collect evidence"></outline>
+				</outline>
+				<outline text="Documentation">
+					<outline text="Non-electronic materials">
+						<outline text="Documents"></outline>
+						<outline text="Manuals"></outline>
+						<outline text="Cables"></outline>
+						<outline text="Packaging materials"></outline>
+						<outline text="Unlock Codes"></outline>
+					</outline>
+					<outline text="Device">
+						<outline text="IMEI"></outline>
+						<outline text="IMSI"></outline>
+						<outline text="MEID"></outline>
+						<outline text="ESN"></outline>
+						<outline text="MAC address"></outline>
+					</outline>
+					<outline text="Photographing">
+						<outline text="Scene"></outline>
+						<outline text="Evidence"></outline>
+						<outline text="Peripherals"></outline>
+						<outline text="Displays"></outline>
+					</outline>
+				</outline>
+				<outline text="Evidence Preservation (1st Responder)">
+					<outline text="Device On?">
+						<outline text="YES">
+							<outline text="Can You Access System Settings">
+								<outline text="YES">
+									<outline text="Enable Airplane Mode, Disable Wifi/BT"></outline>
+									<outline text="Turn On USB Debugging &amp; Stay Awake (Android)"></outline>
+									<outline text="Extend Display Auto Lock/ Timeout &amp; Lock Timer"></outline>
+									<outline text="Do Not Turn Off - Keep Charged"></outline>
+									<outline text="Collect Device Identifier"></outline>
+								</outline>
+								<outline text="NO">
+									<outline text="Do Not Turn Off - Keep Charged"></outline>
+									<outline text="Collect Device Identifier"></outline>
+									<outline text="Put In Faraday Bag"></outline>
+								</outline>
+							</outline>
+						</outline>
+						<outline text="NO">
+							<outline text="DO NOT TURN DEVICE ON">
+								<outline text="Was Device Discovered In Liquid">
+									<outline text="YES">
+										<outline text="Keep Device In Liquid Until Cleaned"></outline>
+										<outline text="Collect Device Identifier If Possible (ANDROID)"></outline>
+										<outline text="Remove Battery if Possible"></outline>
+									</outline>
+									<outline text="NO">
+										<outline text="Remove Battery If possible"></outline>
+										<outline text="Collect Device Identifier"></outline>
+									</outline>
+								</outline>
+							</outline>
+						</outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="Evidence Handling">
+				<outline text="Traditional Forensics">
+					<outline text="Secure Fingreprints"></outline>
+					<outline text="Secure DNA"></outline>
+				</outline>
+				<outline text="Access">
+					<outline text="Smart Locks?">
+						<outline text="On Body Detection">
+							<outline text="Owner"></outline>
+							<outline text="Trusted 3. party"></outline>
+						</outline>
+						<outline text="Trusted Places">
+							<outline text="Home"></outline>
+							<outline text="Trusted Location/zone"></outline>
+						</outline>
+						<outline text="Trusted Devices">
+							<outline text="Trusted BT device (Watch)"></outline>
+						</outline>
+						<outline text="Device Powered On and Locked">
+							<outline text="Password Guessing Strategy?"></outline>
+						</outline>
+						<outline text="Device Powered On and Unlocked">
+							<outline text="Collected on-site as soon as possible."></outline>
+							<outline text="Keep Awake / Charge"></outline>
+						</outline>
+						<outline text="Mobile Device Management (MDM)">
+							<outline text="Seek assistance from SysAdm"></outline>
+						</outline>
+						<outline text="Physical Encryption?"></outline>
+						<outline text="Backup Encryption?"></outline>
+					</outline>
+				</outline>
+				<outline text="Network Isolation">
+					<outline text="Disconnect Device From Network"></outline>
+					<outline text="Enable  Airplane Mode"></outline>
+					<outline text="Disable BT/Wifi"></outline>
+					<outline text="Put in RF shielded enclosure,"></outline>
+				</outline>
+			</outline>
+			<outline text="Evidence Acquisition">
+				<outline text="Evidence Acquisition">
+					<outline text="Subtopic 1"></outline>
+					<outline text="Device Identification"></outline>
+				</outline>
+				<outline text="Device Identification">
+					<outline text="FCC ID"></outline>
+					<outline text="IMEI"></outline>
+					<outline text="MEID"></outline>
+					<outline text="ESN"></outline>
+					<outline text="ESN"></outline>
+				</outline>
+				<outline text="Extraction Methods">
+					<outline text="Manual">
+						<outline text="Manual operation of keypad/handset"></outline>
+					</outline>
+					<outline text="Logical">
+						<outline text="Extraction of files and objects"></outline>
+					</outline>
+					<outline text="File System">
+						<outline text="Files, objects and data extracted with filesystem"></outline>
+					</outline>
+					<outline text="Physical (Non-Invasive)">
+						<outline text="Forensic Acquisition by HW/SF tools "></outline>
+					</outline>
+					<outline text="Physical (Invasive)">
+						<outline text="JTAG"></outline>
+						<outline text="ISP (In-System Programming)"></outline>
+						<outline text="Chip-Off"></outline>
+					</outline>
+					<outline text="Removable Media"></outline>
+					<outline text="GSM Mobile Device Considerations">
+						<outline text="If devices requiring a UICC/SIM, process UICC/SIM first"></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="TOOLS">
+				<outline text="XRY"></outline>
+				<outline text="Cellelbrite"></outline>
+			</outline>
+			<outline text="Forensic Analysis">
+				<outline text="Data/Objects Of Value">
+					<outline text="Subscriber / Equipment Identifiers"></outline>
+					<outline text="Various User Accounts"></outline>
+					<outline text="UICC / SIM Card (Universal Integrated Circuit Card/Subscriber Identity Module Card)"></outline>
+					<outline text="External media storage"></outline>
+					<outline text="Date/time, language, and other settings"></outline>
+					<outline text="Phonebook/Contact information"></outline>
+					<outline text="Calendar information"></outline>
+					<outline text="Text messages / SMS (Short Message Service)"></outline>
+					<outline text="Multimedia messages / MMS (Multimedia Messaging Service)"></outline>
+					<outline text="Instant messages"></outline>
+					<outline text="Call logs"></outline>
+					<outline text="Email"></outline>
+					<outline text="Photos and included metadata such as EXIF"></outline>
+					<outline text="Videos and included metadata such as XMP"></outline>
+					<outline text="Audio and voicemail recordings"></outline>
+					<outline text="Web browsing activities"></outline>
+					<outline text="Electronic documents"></outline>
+					<outline text="SQL Databases"></outline>
+					<outline text="Network and WiFi information"></outline>
+					<outline text="Bluetooth devices and connections"></outline>
+					<outline text="Social media-accounts-related data"></outline>
+					<outline text="Applications-related data"></outline>
+					<outline text="Health data"></outline>
+					<outline text="Location data"></outline>
+					<outline text="Saved passwords, encryption keys, or any other authentication or access mechanisms"></outline>
+					<outline text="VoIP applications"></outline>
+					<outline text="Third Party Communication application data"></outline>
+				</outline>
+				<outline text="Forensic Tool Analysis">
+					<outline text="Parse &amp; Search Data"></outline>
+					<outline text="Identify &amp; Tag Key Evidence"></outline>
+				</outline>
+				<outline text="Validation ">
+					<outline text="Compare sample results against other tools"></outline>
+					<outline text="Manually examine data where it resides within the device extraction"></outline>
+					<outline text="Compare the parsed content with content that is actually viewable on the subject device"></outline>
+					<outline text="Properly address and document contradictions"></outline>
+				</outline>
+				<outline text="Evidentiary Considerations">
+					<outline text="Logical encryption"></outline>
+					<outline text="Data hiding applications"></outline>
+					<outline text="Timeline analysis"></outline>
+					<outline text="Malware Detection"></outline>
+				</outline>
+				<outline text="Mobile Operating Systems">
+					<outline text="Android:">
+						<outline text="Vendors">
+							<outline text="Samsung"></outline>
+							<outline text="LG"></outline>
+							<outline text="Google"></outline>
+							<outline text="HTC"></outline>
+							<outline text="Sony"></outline>
+							<outline text="Motorola"></outline>
+							<outline text="Huawei"></outline>
+						</outline>
+						<outline text="Google Account">
+							<outline text="Drive"></outline>
+							<outline text="Maps"></outline>
+							<outline text="Calendar"></outline>
+							<outline text="Additional Evidence Sources"></outline>
+						</outline>
+						<outline text="Google Play">
+							<outline text="Review Installed Applications"></outline>
+						</outline>
+						<outline text="XML Files"></outline>
+					</outline>
+					<outline text="iOS">
+						<outline text="iCloud">
+							<outline text="iMessages"></outline>
+							<outline text="FaceTime"></outline>
+							<outline text="iCloud"></outline>
+							<outline text="Appstore"></outline>
+							<outline text="Findy My Device"></outline>
+							<outline text="Apple Music"></outline>
+						</outline>
+						<outline text="Apple Service"></outline>
+						<outline text="iMessage">
+							<outline text="Devices synced by an AppleID"></outline>
+							<outline text="Can be routed as SMS/MMS"></outline>
+						</outline>
+						<outline text="FaceTime">
+							<outline text="FaceTime records may reside on device"></outline>
+						</outline>
+						<outline text="Apple Store">
+							<outline text="AppleID"></outline>
+							<outline text="Date/Time for purchase"></outline>
+							<outline text="Look for &quot;sideloaded apps&quot;"></outline>
+						</outline>
+						<outline text="iOS Time Format">
+							<outline text="UNIX Epoch"></outline>
+							<outline text="CF Absolute Time"></outline>
+						</outline>
+						<outline text="Plists"></outline>
+						<outline text="Google Account">
+							<outline text="Drive"></outline>
+							<outline text="Maps"></outline>
+							<outline text="Calendar"></outline>
+							<outline text="Additional Evidence Sources"></outline>
+						</outline>
+					</outline>
+					<outline text="Linux">
+						<outline text="Google Account">
+							<outline text="Drive"></outline>
+							<outline text="Maps"></outline>
+							<outline text="Calendar"></outline>
+							<outline text="Additional Evidence Sources"></outline>
+						</outline>
+					</outline>
+					<outline text="Windows Mobile">
+						<outline text="Google Account">
+							<outline text="Drive"></outline>
+							<outline text="Maps"></outline>
+							<outline text="Calendar"></outline>
+							<outline text="Additional Evidence Sources"></outline>
+						</outline>
+						<outline text="Office365 Account"></outline>
+					</outline>
+					<outline text="Other">
+						<outline text="Older legacy systems"></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="This Map was created by @tabalizer 21.04.2021
+The purpose of this map is to provide best practices for the analysis of data derived from mobile devices following a forensic acquisition. The intended audience is personnel tasked with analyzing data from mobile devices. "></outline>
+		</outline>
+	</body>
+</opml>
